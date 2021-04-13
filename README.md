@@ -54,9 +54,9 @@ https://docs.google.com/spreadsheets/d/1UIEe3aswPfoaLeIGcCW8BCvjLjLQI04YsKqbWyDd
 - MySQL2
 - Nginx、 Puma
 
-### テスト
-- Rspec
+<!-- ### テスト
+- Rspec -->
 
 ### その他主な使用技術
-- 非同期通信 (フォロー・いいね・コメント・チャット)
+- 非同期通信 (フォロー・いいね・コメント・チャット)?
 
