@@ -1,5 +1,5 @@
 current directory: /Users/do/Desktop/PF1copy/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2
-/Users/do/.rbenv/versions/2.6.6/bin/ruby -I /Users/do/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20210414-5992-13dn17f.rb extconf.rb
+/Users/do/.rbenv/versions/2.6.3/bin/ruby -I /Users/do/.rbenv/versions/2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210414-50918-1qeuzjv.rb extconf.rb --with-ldflags\=-L/usr/local/opt/openssl/lib
 checking for rb_absint_size()... yes
 checking for rb_absint_singlebit_p()... yes
 checking for rb_wait_for_single_fd()... yes
@@ -23,26 +23,22 @@ checking for MYSQL_OPTION_MULTI_STATEMENTS_ON in mysql.h... yes
 checking for MYSQL_OPTION_MULTI_STATEMENTS_OFF in mysql.h... yes
 checking for my_bool in mysql.h... no
 -----
-Don't know how to set rpath on your system, if MySQL libraries are not in path mysql2 may not load
------
------
-Setting libpath to /usr/local/Cellar/mysql/8.0.23/lib
+Setting rpath to /usr/local/Cellar/mysql/8.0.23/lib
 -----
 creating Makefile
 
 current directory: /Users/do/Desktop/PF1copy/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2
-make "DESTDIR=" clean
+make DESTDIR\= clean
 
 current directory: /Users/do/Desktop/PF1copy/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2
-make "DESTDIR="
+make DESTDIR\=
 compiling client.c
 compiling infile.c
 compiling mysql2_ext.c
 compiling result.c
 compiling statement.c
 linking shared-object mysql2/mysql2.bundle
-ld: library not found for -lssl
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make: *** [mysql2.bundle] Error 1
 
-make failed, exit code 2
+current directory: /Users/do/Desktop/PF1copy/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 mysql2.bundle ./.gem.20210414-50918-2ut8pd/mysql2
