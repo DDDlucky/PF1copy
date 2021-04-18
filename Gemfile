@@ -7,7 +7,7 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 # # Use sqlite3 as the database for Active Record
 # gem 'sqlite3', '~> 1.3.6'
-# gem 'mysql2', '~>0.5.3'
+gem 'mysql2', '~>0.5.3'
 
 gem 'pg','>= 0.18', '< 2.0', group: :production
 
