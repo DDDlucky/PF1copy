@@ -46,12 +46,12 @@ https://docs.google.com/spreadsheets/d/1UIEe3aswPfoaLeIGcCW8BCvjLjLQI04YsKqbWyDd
 - JavaScript、jQuery、Ajax
 
 ### バックエンド
-- Ruby 2.6.3
+- Ruby 2.5.1
 - Rails 5.2.4.4
 
 ### 本番環境
-- AWS
-- MySQL2
+- Heroku(heroku-18)
+- Postgress
 - Nginx、 Puma
 
 <!-- ### テスト
